@@ -1,7 +1,7 @@
 import { useSelector } from "react-redux";
 import CarData from "./CarData";
 import { useParams } from "react-router-dom";
-
+import { AiOutlineArrowRight } from "react-icons/ai";
 const Cars = () => {
   const card_data = useSelector((state) => state.data);
   var { pageNumber } = useParams();
@@ -9,10 +9,11 @@ const Cars = () => {
 
   if (!pageNumber) pageNumber = 1;
   // console.log(pageNumber);
-  const itemsPerPage = 6;
+  const itemsPerPage = 3;
   const startId = (pageNumber - 1) * itemsPerPage + 1;
   const endId = startId + itemsPerPage - 1;
   const filteredData = card_data.slice(startId - 1, endId);
+  console.log(filteredData);
 
   return (
     <div>
@@ -30,8 +31,35 @@ const Cars = () => {
           className="d-flex flex-wrap justify-content-between m-4"
           style={{ width: "90%" }}
         >
-          <p>wd</p>
-          <p>sdc</p>
+          <div className="d-flex flex-row">
+            {" "}
+            <button
+              type="button"
+              className="btn btn-secondary  me-3 rounded-pill"
+            >
+              New York
+            </button>{" "}
+            <button
+              type="button"
+              className="btn btn-secondary  me-3 rounded-pill"
+            >
+              Parris
+            </button>{" "}
+            <button
+              type="button"
+              className="btn btn-primary  me-3 rounded-pill"
+            >
+              London
+            </button>{" "}
+          </div>
+          <div>
+            <button
+              type="button"
+              className="btn btn-outline-primary me-3 rounded-pill"
+            >
+              View all <AiOutlineArrowRight />
+            </button>
+          </div>
         </div>
       </section>
       <div className="container" style={{ width: "90%" }}>

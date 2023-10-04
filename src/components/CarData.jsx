@@ -13,55 +13,58 @@ export default function CarCard({ car }) {
         style={{ backgroundColor: "#e8e8e8" }}
       >
         <Carousel interval={null}>
-          {car.car_images.map((image, imageIndex) => (
+          {car.image_urls.map((image, imageIndex) => (
             <Carousel.Item key={imageIndex}>
-              <img
-                src={image}
-                className="card-img-top rounded-4"
-                alt={carNameAndYear}
-              />
+              <div
+                style={{
+                  height: "300px",
+                  width: "370px",
+                }}
+              >
+                <img
+                  src={image}
+                  className="card-img-top rounded-4"
+                  alt={carNameAndYear}
+                  style={{ height: "100%", objectFit: "cover" }}
+                />
+              </div>
             </Carousel.Item>
           ))}
         </Carousel>
         <div className="card-body">
-          <div className=" d-flex justify-content-between">
-            <p className="mt-2  fw-bold fs-4">{car.car_name}</p>
-            <p
-              className="  rounded-3 text-center p-2"
-              style={{
-                border: "2px dotted #4687f0",
-                borderStyle: "dashed solid",
-              }}
-            >
-              {car.year_manufacture}
-            </p>
-          </div>
-          <div className="d-flex flex-wrap justify-content-between">
-            <div className="p-1" style={{ flex: "0 0 calc(50% - 15px)" }}>
-              <p className="card-text">
-                <FaUsers className="text-primary" /> {car.seaters}
+          <p className="mt-2   fs-4">{car.location}</p>
+          <p className="mt-2   fs-4">{car.complete_address}</p>
+          <div className="d-flex flex-row  justify-content-between m-4">
+            <div className="p-2">
+              <p>
+                <FaUsers className="text-primary" />{" "}
               </p>
+              <p> {car.number_of_rooms}</p>
             </div>
-            <div className="p-1" style={{ flex: "0 0 calc(50% - 15px)" }}>
-              <p className="card-text">
-                <FaGasPump className="text-primary" /> {car.fuel_type}
+            <div className="p-2">
+              <p>
+                <FaUsers className="text-primary" />{" "}
               </p>
+              <p> {car.number_of_bedrooms}</p>
             </div>
-            <div className="p-1" style={{ flex: "0 0 calc(50% - 15px)" }}>
-              <p className="card-text">
-                <FaTachometerAlt className="text-primary" /> {car.mileage}
+            <div className="p-2">
+              <p>
+                <FaUsers className="text-primary" />{" "}
               </p>
+              <p> {car.number_of_baths}</p>
             </div>
-            <div className="p-1" style={{ flex: "0 0 calc(50% - 15px)" }}>
-              <p className="card-text">
-                <FaCar className="text-primary" /> {car.type}
+            <div className="p-2">
+              <p>
+                <FaUsers className="text-primary" />{" "}
               </p>
+              <p> {car.number_of_staff}</p>
             </div>
           </div>
+
           <hr className="my-4" />
           <div className=" d-flex justify-content-between">
             <p className="mt-2  fw-bold fs-4">
-              {car.car_price}
+              {car.price}
               <span style={{ fontWeight: 100 }}>/month</span>
             </p>
             <p

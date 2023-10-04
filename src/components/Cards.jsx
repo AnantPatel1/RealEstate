@@ -1,61 +1,67 @@
 import { useSelector } from "react-redux";
-import CarData from "./CarData";
-import { useParams } from "react-router-dom";
+import PropertyData from "./PropertyData";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { Fragment, useEffect, useState } from "react";
+import { MdUnfoldMoreDouble } from "react-icons/md";
+
 const Cars = () => {
   const card_data = useSelector((state) => state.data);
-  var { pageNumber } = useParams();
-  // console.log(card_data);
+  const [count, setCount] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(6);
+  const [filteredData, setFilteredData] = useState([]);
+  const [disable, setdisable] = useState(false);
 
-  if (!pageNumber) pageNumber = 1;
-  // console.log(pageNumber);
-  const itemsPerPage = 3;
-  const startId = (pageNumber - 1) * itemsPerPage + 1;
-  const endId = startId + itemsPerPage - 1;
-  const filteredData = card_data.slice(startId - 1, endId);
-  console.log(filteredData);
+  useEffect(() => {
+    const dataToShow = card_data.slice(0, itemsPerPage);
+    setFilteredData(dataToShow);
+  }, [itemsPerPage, card_data]);
 
+  const handleShowMore = () => {
+    setCount(count + 1);
+    setItemsPerPage(itemsPerPage + count * 3);
+  };
+  const showFullData = () => {
+    setItemsPerPage(60);
+    setdisable(true);
+  };
   return (
-    <div>
-      <div className=" container">
+    <Fragment>
+      <div className="container">
         <header style={{ width: "40%" }}>
           <h1>Featured Listed Properties</h1>
           <p>
-            Real State can be bought,sold, leased or rented and can be valuable
-            investment opportunity.The value of real State can be...
+            Real Estate can be bought, sold, leased, or rented and can be a
+            valuable investment opportunity. The value of real estate can be...
           </p>
         </header>
       </div>
-      <section className=" container">
+      <section className="container">
         <div
           className="d-flex flex-wrap justify-content-between m-4"
           style={{ width: "90%" }}
         >
           <div className="d-flex flex-row">
-            {" "}
             <button
               type="button"
-              className="btn btn-secondary  me-3 rounded-pill"
+              className="btn btn-secondary me-3 rounded-pill"
             >
               New York
-            </button>{" "}
+            </button>
             <button
               type="button"
-              className="btn btn-secondary  me-3 rounded-pill"
+              className="btn btn-secondary me-3 rounded-pill"
             >
-              Parris
-            </button>{" "}
-            <button
-              type="button"
-              className="btn btn-primary  me-3 rounded-pill"
-            >
+              Paris
+            </button>
+            <button type="button" className="btn btn-primary me-3 rounded-pill">
               London
-            </button>{" "}
+            </button>
           </div>
           <div>
             <button
               type="button"
               className="btn btn-outline-primary me-3 rounded-pill"
+              onClick={showFullData}
             >
               View all <AiOutlineArrowRight />
             </button>
@@ -64,12 +70,26 @@ const Cars = () => {
       </section>
       <div className="container" style={{ width: "90%" }}>
         <div className="row p-1 m-1">
-          {filteredData.map((car, index) => (
-            <CarData key={index} car={car} />
+          {filteredData.map((item, index) => (
+            <PropertyData key={index} property={item} />
           ))}
         </div>
       </div>
-    </div>
+      <div className="container p-4">
+        {disable === "false" ? (
+          <button
+            type="button"
+            className="btn btn-primary p-2"
+            onClick={handleShowMore}
+          >
+            <MdUnfoldMoreDouble />
+            Show More
+          </button>
+        ) : (
+          ""
+        )}
+      </div>
+    </Fragment>
   );
 };
 

@@ -29,6 +29,24 @@ export default function CarCard({ property }) {
             </Carousel.Item>
           ))}
         </Carousel>
+        <div
+          className="d-flex justify-content-between p-2"
+          style={{
+            position: "absolute", // Position absolute to overlay on image
+            top: "0",
+            left: "0",
+            right: "0",
+          }}
+        >
+          <div className=" d-flex justify-content-between">
+            <button type="button" className="btn btn-light rounded-pill">
+              {property.category}
+            </button>
+            <button type="button" className="btn btn-light rounded-pill">
+              <BsHeart className=".bg-info" />
+            </button>
+          </div>
+        </div>
 
         <div className="card-body">
           <div className="d-flex justify-content-between">
@@ -93,14 +111,7 @@ export default function CarCard({ property }) {
               {property.price}
               <span style={{ fontWeight: 100 }}>/month</span>
             </p>
-            <p
-              style={{
-                display: "flex",
-              }}
-            >
-              <button type="button" className="btn  bg-info rounded-4 m-1">
-                <BsHeart />
-              </button>
+            <p>
               <button
                 type="button"
                 className="btn btn-outline-primary rounded-4 m-1"

@@ -24,6 +24,7 @@ const Cars = () => {
     setItemsPerPage(60);
     setdisable(true);
   };
+  console.log(disable);
   return (
     <Fragment>
       <div className="container">
@@ -76,18 +77,15 @@ const Cars = () => {
         </div>
       </div>
       <div className="container p-4">
-        {disable === "false" ? (
-          <button
-            type="button"
-            className="btn btn-primary p-2"
-            onClick={handleShowMore}
-          >
-            <MdUnfoldMoreDouble />
-            Show More
-          </button>
-        ) : (
-          ""
-        )}
+        <button
+          type="button"
+          className="btn btn-primary p-2"
+          onClick={handleShowMore}
+          disabled={disable}
+        >
+          <MdUnfoldMoreDouble />
+          Show More
+        </button>
       </div>
     </Fragment>
   );

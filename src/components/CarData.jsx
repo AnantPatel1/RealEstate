@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import Carousel from "react-bootstrap/Carousel";
-import { FaUsers, FaGasPump, FaTachometerAlt, FaCar } from "react-icons/fa";
+import { FaBed, FaRestroom, FaBath, FaRegBuilding } from "react-icons/fa";
+import { GoLocation } from "react-icons/go";
 import { BsHeart } from "react-icons/bs";
 export default function CarCard({ car }) {
   // Combine car name and year of manufacture with a space in between
@@ -31,33 +32,61 @@ export default function CarCard({ car }) {
             </Carousel.Item>
           ))}
         </Carousel>
+
         <div className="card-body">
-          <p className="mt-2   fs-4">{car.location}</p>
+          <div className="d-flex justify-content-between">
+            <div className="p-2">
+              {" "}
+              <p>
+                <span>
+                  <GoLocation />
+                </span>
+                {car.location}
+              </p>
+            </div>
+            <div className="p-2">
+              {car.popular === "True" ? (
+                <button
+                  type="button"
+                  className="btn btn-primary position-relative"
+                >
+                  Popular
+                  <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                    +{car.ratings}
+                    <span className="visually-hidden">ratings</span>
+                  </span>
+                </button>
+              ) : (
+                ""
+              )}
+            </div>
+          </div>
+
           <p className="mt-2   fs-4">{car.complete_address}</p>
           <div className="d-flex flex-row  justify-content-between m-4">
             <div className="p-2">
               <p>
-                <FaUsers className="text-primary" />{" "}
+                <FaRegBuilding className="text-secondary fs-2" />{" "}
               </p>
-              <p> {car.number_of_rooms}</p>
+              <p> {car.number_of_rooms}rooms</p>
             </div>
             <div className="p-2">
               <p>
-                <FaUsers className="text-primary" />{" "}
+                <FaBed className="text-secondary fs-2" />{" "}
               </p>
-              <p> {car.number_of_bedrooms}</p>
+              <p> {car.number_of_bedrooms}bed</p>
             </div>
             <div className="p-2">
               <p>
-                <FaUsers className="text-primary" />{" "}
+                <FaBath className="text-secondary fs-2" />{" "}
               </p>
-              <p> {car.number_of_baths}</p>
+              <p> {car.number_of_baths} bath</p>
             </div>
             <div className="p-2">
               <p>
-                <FaUsers className="text-primary" />{" "}
+                <FaRestroom className="text-secondary fs-2" />{" "}
               </p>
-              <p> {car.number_of_staff}</p>
+              <p> {car.number_of_staff} staff</p>
             </div>
           </div>
 
@@ -75,7 +104,10 @@ export default function CarCard({ car }) {
               <button type="button" className="btn  bg-info rounded-4 m-1">
                 <BsHeart />
               </button>
-              <button type="button" className="btn btn-primary rounded-4 m-1">
+              <button
+                type="button"
+                className="btn btn-outline-primary rounded-4 m-1"
+              >
                 Rent Now
               </button>
             </p>

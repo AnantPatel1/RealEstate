@@ -79,25 +79,25 @@ export default function CarCard({ property }) {
 
           <p className="mt-2   fs-4">{property.complete_address}</p>
           <div className="d-flex flex-row  justify-content-between m-4">
-            <div className="p-2">
+            <div className="">
               <p>
                 <FaRegBuilding className="text-secondary fs-2" />{" "}
               </p>
               <p> {property.number_of_rooms}rooms</p>
             </div>
-            <div className="p-2">
+            <div className="">
               <p>
                 <FaBed className="text-secondary fs-2" />{" "}
               </p>
               <p> {property.number_of_bedrooms}bed</p>
             </div>
-            <div className="p-2">
+            <div className="">
               <p>
                 <FaBath className="text-secondary fs-2" />{" "}
               </p>
               <p> {property.number_of_baths} bath</p>
             </div>
-            <div className="p-2">
+            <div className="">
               <p>
                 <FaRestroom className="text-secondary fs-2" />{" "}
               </p>

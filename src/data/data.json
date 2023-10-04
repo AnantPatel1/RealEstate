@@ -1,0 +1,842 @@
+[
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Kia Soul",
+    "car_price": "$19,50",
+    "seaters": 5,
+    "year_manufacture": 2021,
+    "mileage": "10 km/liter",
+    "type": "automatic",
+    "fuel_type": "Electric"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502161254066-6c74afbf07aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXVkaXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Toyota Camry",
+    "car_price": "$25,00",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "6 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1ZGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Honda Civic",
+    "car_price": "$20,50",
+    "seaters": 5,
+    "year_manufacture": 2021,
+    "mileage": "7.6 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1ZGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Nissan Rogue",
+    "car_price": "$28,700",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "22 km/liter",
+    "type": "automatic",
+    "fuel_type": "Hybrid"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1ZGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Honda Civic",
+    "car_price": "$20,50",
+    "seaters": 5,
+    "year_manufacture": 2021,
+    "mileage": "7.6 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/2676096/pexels-photo-2676096.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/730615/pexels-photo-730615.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/2405039/pexels-photo-2405039.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Toyota Camry",
+    "car_price": "$25,500",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "28 km/liter",
+    "type": "automatic",
+    "fuel_type": "Hybrid"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1687147/pexels-photo-1687147.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Kia Soul",
+    "car_price": "$19,500",
+    "seaters": 5,
+    "year_manufacture": 2021,
+    "mileage": "10 km/liter",
+    "type": "automatic",
+    "fuel_type": "Electric"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/2676096/pexels-photo-2676096.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/730615/pexels-photo-730615.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/2405039/pexels-photo-2405039.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Toyota Camry",
+    "car_price": "$25,500",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "28 km/liter",
+    "type": "automatic",
+    "fuel_type": "Hybrid"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Honda Civic",
+    "car_price": "$21,800",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "24 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/1429775/pexels-photo-1429775.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1007410/pexels-photo-1007410.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/88630/pexels-photo-88630.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Ford Mustang",
+    "car_price": "$38,900",
+    "seaters": 4,
+    "year_manufacture": 2023,
+    "mileage": "18 km/liter",
+    "type": "manual",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1ZGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Nissan Rogue",
+    "car_price": "$28,700",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "22 km/liter",
+    "type": "automatic",
+    "fuel_type": "Hybrid"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/3608542/pexels-photo-3608542.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3752194/pexels-photo-3752194.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Chevrolet Silverado",
+    "car_price": "$35,600",
+    "seaters": 6,
+    "year_manufacture": 2023,
+    "mileage": "15 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/909907/pexels-photo-909907.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Volkswagen Golf",
+    "car_price": "$23,950",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "26 km/liter",
+    "type": "automatic",
+    "fuel_type": "Diesel"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/627678/pexels-photo-627678.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/810357/pexels-photo-810357.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Mazda CX-5",
+    "car_price": "$27,500",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "23 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Subaru Outback",
+    "car_price": "$31,800",
+    "seaters": 5,
+    "year_manufacture": 2023,
+    "mileage": "20 km/liter",
+    "type": "automatic",
+    "fuel_type": "Hybrid"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/712618/pexels-photo-712618.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/119435/pexels-photo-119435.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3311574/pexels-photo-3311574.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Jeep Wrangler",
+    "car_price": "$33,950",
+    "seaters": 4,
+    "year_manufacture": 2023,
+    "mileage": "17 km/liter",
+    "type": "manual",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/253096/pexels-photo-253096.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1383834/pexels-photo-1383834.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1534604/pexels-photo-1534604.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Hyundai Tucson",
+    "car_price": "$26,500",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "25 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1ZGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "BMW X5",
+    "car_price": "$55,000",
+    "seaters": 5,
+    "year_manufacture": 2023,
+    "mileage": "19 km/liter",
+    "type": "automatic",
+    "fuel_type": "Electric"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Audi A4",
+    "car_price": "$38,750",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "27 km/liter",
+    "type": "automatic",
+    "fuel_type": "Diesel"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Kia Soul",
+    "car_price": "$19,50",
+    "seaters": 5,
+    "year_manufacture": 2021,
+    "mileage": "10 km/liter",
+    "type": "automatic",
+    "fuel_type": "Electric"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502161254066-6c74afbf07aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXVkaXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Toyota Camry",
+    "car_price": "$25,00",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "6 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1ZGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Honda Civic",
+    "car_price": "$20,50",
+    "seaters": 5,
+    "year_manufacture": 2021,
+    "mileage": "7.6 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1ZGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Nissan Rogue",
+    "car_price": "$28,700",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "22 km/liter",
+    "type": "automatic",
+    "fuel_type": "Hybrid"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1ZGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Honda Civic",
+    "car_price": "$20,50",
+    "seaters": 5,
+    "year_manufacture": 2021,
+    "mileage": "7.6 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/2676096/pexels-photo-2676096.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/730615/pexels-photo-730615.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/2405039/pexels-photo-2405039.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Toyota Camry",
+    "car_price": "$25,500",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "28 km/liter",
+    "type": "automatic",
+    "fuel_type": "Hybrid"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1687147/pexels-photo-1687147.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Kia Soul",
+    "car_price": "$19,500",
+    "seaters": 5,
+    "year_manufacture": 2021,
+    "mileage": "10 km/liter",
+    "type": "automatic",
+    "fuel_type": "Electric"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/2676096/pexels-photo-2676096.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/730615/pexels-photo-730615.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/2405039/pexels-photo-2405039.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Toyota Camry",
+    "car_price": "$25,500",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "28 km/liter",
+    "type": "automatic",
+    "fuel_type": "Hybrid"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Honda Civic",
+    "car_price": "$21,800",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "24 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/1429775/pexels-photo-1429775.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1007410/pexels-photo-1007410.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/88630/pexels-photo-88630.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Ford Mustang",
+    "car_price": "$38,900",
+    "seaters": 4,
+    "year_manufacture": 2023,
+    "mileage": "18 km/liter",
+    "type": "manual",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1ZGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Nissan Rogue",
+    "car_price": "$28,700",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "22 km/liter",
+    "type": "automatic",
+    "fuel_type": "Hybrid"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/3608542/pexels-photo-3608542.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3752194/pexels-photo-3752194.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Chevrolet Silverado",
+    "car_price": "$35,600",
+    "seaters": 6,
+    "year_manufacture": 2023,
+    "mileage": "15 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/909907/pexels-photo-909907.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Volkswagen Golf",
+    "car_price": "$23,950",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "26 km/liter",
+    "type": "automatic",
+    "fuel_type": "Diesel"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/627678/pexels-photo-627678.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/810357/pexels-photo-810357.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Mazda CX-5",
+    "car_price": "$27,500",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "23 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Subaru Outback",
+    "car_price": "$31,800",
+    "seaters": 5,
+    "year_manufacture": 2023,
+    "mileage": "20 km/liter",
+    "type": "automatic",
+    "fuel_type": "Hybrid"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/712618/pexels-photo-712618.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/119435/pexels-photo-119435.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3311574/pexels-photo-3311574.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Jeep Wrangler",
+    "car_price": "$33,950",
+    "seaters": 4,
+    "year_manufacture": 2023,
+    "mileage": "17 km/liter",
+    "type": "manual",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/253096/pexels-photo-253096.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1383834/pexels-photo-1383834.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1534604/pexels-photo-1534604.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Hyundai Tucson",
+    "car_price": "$26,500",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "25 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1ZGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "BMW X5",
+    "car_price": "$55,000",
+    "seaters": 5,
+    "year_manufacture": 2023,
+    "mileage": "19 km/liter",
+    "type": "automatic",
+    "fuel_type": "Electric"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Audi A4",
+    "car_price": "$38,750",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "27 km/liter",
+    "type": "automatic",
+    "fuel_type": "Diesel"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Kia Soul",
+    "car_price": "$19,50",
+    "seaters": 5,
+    "year_manufacture": 2021,
+    "mileage": "10 km/liter",
+    "type": "automatic",
+    "fuel_type": "Electric"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502161254066-6c74afbf07aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXVkaXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Toyota Camry",
+    "car_price": "$25,00",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "6 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1ZGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Honda Civic",
+    "car_price": "$20,50",
+    "seaters": 5,
+    "year_manufacture": 2021,
+    "mileage": "7.6 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Kia Soul",
+    "car_price": "$19,50",
+    "seaters": 5,
+    "year_manufacture": 2021,
+    "mileage": "10 km/liter",
+    "type": "automatic",
+    "fuel_type": "Electric"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502161254066-6c74afbf07aa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8YXVkaXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Toyota Camry",
+    "car_price": "$25,00",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "6 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1ZGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Honda Civic",
+    "car_price": "$20,50",
+    "seaters": 5,
+    "year_manufacture": 2021,
+    "mileage": "7.6 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1ZGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Nissan Rogue",
+    "car_price": "$28,700",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "22 km/liter",
+    "type": "automatic",
+    "fuel_type": "Hybrid"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1ZGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Honda Civic",
+    "car_price": "$20,50",
+    "seaters": 5,
+    "year_manufacture": 2021,
+    "mileage": "7.6 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/2676096/pexels-photo-2676096.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/730615/pexels-photo-730615.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/2405039/pexels-photo-2405039.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Toyota Camry",
+    "car_price": "$25,500",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "28 km/liter",
+    "type": "automatic",
+    "fuel_type": "Hybrid"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3802510/pexels-photo-3802510.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1687147/pexels-photo-1687147.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Kia Soul",
+    "car_price": "$19,500",
+    "seaters": 5,
+    "year_manufacture": 2021,
+    "mileage": "10 km/liter",
+    "type": "automatic",
+    "fuel_type": "Electric"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/2676096/pexels-photo-2676096.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/730615/pexels-photo-730615.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/2405039/pexels-photo-2405039.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Toyota Camry",
+    "car_price": "$25,500",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "28 km/liter",
+    "type": "automatic",
+    "fuel_type": "Hybrid"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Honda Civic",
+    "car_price": "$21,800",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "24 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/1429775/pexels-photo-1429775.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1007410/pexels-photo-1007410.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/88630/pexels-photo-88630.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Ford Mustang",
+    "car_price": "$38,900",
+    "seaters": 4,
+    "year_manufacture": 2023,
+    "mileage": "18 km/liter",
+    "type": "manual",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1ZGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Nissan Rogue",
+    "car_price": "$28,700",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "22 km/liter",
+    "type": "automatic",
+    "fuel_type": "Hybrid"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/3608542/pexels-photo-3608542.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3752194/pexels-photo-3752194.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Chevrolet Silverado",
+    "car_price": "$35,600",
+    "seaters": 6,
+    "year_manufacture": 2023,
+    "mileage": "15 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/116675/pexels-photo-116675.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/909907/pexels-photo-909907.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Volkswagen Golf",
+    "car_price": "$23,950",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "26 km/liter",
+    "type": "automatic",
+    "fuel_type": "Diesel"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/627678/pexels-photo-627678.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/244206/pexels-photo-244206.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/810357/pexels-photo-810357.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Mazda CX-5",
+    "car_price": "$27,500",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "23 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Subaru Outback",
+    "car_price": "$31,800",
+    "seaters": 5,
+    "year_manufacture": 2023,
+    "mileage": "20 km/liter",
+    "type": "automatic",
+    "fuel_type": "Hybrid"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/712618/pexels-photo-712618.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/119435/pexels-photo-119435.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/3311574/pexels-photo-3311574.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Jeep Wrangler",
+    "car_price": "$33,950",
+    "seaters": 4,
+    "year_manufacture": 2023,
+    "mileage": "17 km/liter",
+    "type": "manual",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.pexels.com/photos/253096/pexels-photo-253096.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1383834/pexels-photo-1383834.jpeg?auto=compress&cs=tinysrgb&w=600",
+      "https://images.pexels.com/photos/1534604/pexels-photo-1534604.jpeg?auto=compress&cs=tinysrgb&w=600"
+    ],
+    "car_name": "Hyundai Tucson",
+    "car_price": "$26,500",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "25 km/liter",
+    "type": "automatic",
+    "fuel_type": "Gasoline"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2Fyc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGF1ZGl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGNhcnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "BMW X5",
+    "car_price": "$55,000",
+    "seaters": 5,
+    "year_manufacture": 2023,
+    "mileage": "19 km/liter",
+    "type": "automatic",
+    "fuel_type": "Electric"
+  },
+  {
+    "car_images": [
+      "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1542362567-b07e54358753?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGNhcnN8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60",
+      "https://images.unsplash.com/photo-1502877338535-766e1452684a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y2FyfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+    ],
+    "car_name": "Audi A4",
+    "car_price": "$38,750",
+    "seaters": 5,
+    "year_manufacture": 2022,
+    "mileage": "27 km/liter",
+    "type": "automatic",
+    "fuel_type": "Diesel"
+  }
+]
